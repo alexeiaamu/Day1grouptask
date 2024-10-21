@@ -14,6 +14,20 @@ while True:
         score+=1
     else:
         print('incorrect')
+
+        q2=int(input('What is 3 * 3?'))
+    if q2 == 9:
+        print('correct!')
+        score+=1
+    else:
+        print('incorrect')
+
+    q3=int(input('What is 6 + 5?'))
+    if q3 == 11:
+        print('correct!')
+        score+=1
+    else:
+        print('incorrect')
     break
 
 
